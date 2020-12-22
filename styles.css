@@ -143,7 +143,7 @@ nav  {
 
 .plant {
   position: absolute;
-  bottom: 0;
+  bottom: -2%;
   left: -20%;
   z-index: -1;
   transform: translateY(10%) rotateZ(-10deg) rotateX(-90deg);

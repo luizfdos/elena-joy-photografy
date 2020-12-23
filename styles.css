@@ -318,7 +318,7 @@ footer {
   background: var(--background-color);
   color: white;
   display: flex;
-  padding: 3rem 5%;
+  padding: 2rem 5%;
   align-items: center;
   flex-wrap: wrap;
 }
@@ -331,7 +331,7 @@ footer ul {
 
 footer h4 {
   flex: 3 1 40rem;
-  font-size: calc(1.4rem + 1vw);
+  font-size: calc(1rem + 1vw);
 }
 
 @media screen and (max-width: 850px) {
@@ -444,4 +444,9 @@ footer h4 {
     --text: 3rem;
     --big: 8rem;
   }
+  
+footer h4 {
+  flex: 3 1 40rem;
+  font-size: 2.5rem;
+}
 }
